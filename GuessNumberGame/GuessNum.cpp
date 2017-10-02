@@ -96,8 +96,7 @@ void Stats(int wins, int games)
 
 	percent = ((double)wins / (double)games) * 100;
 
-	cout << endl;
-
+	cout << endl << "\tSTATS" << endl;
 	cout << "Games Won:  " << wins << endl;
 	cout << "Games Played:  " << games << endl;
 	cout << "Win Percentage:  " <<  setprecision(2) << fixed << percent << "%" << endl;
